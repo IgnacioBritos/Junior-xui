@@ -15,7 +15,7 @@ Una vez que hayas instalado Junior-XUI en tu proyecto, puedes importar y usar lo
 
 ```
 import React from 'react';
-import { Button } from '@your-scope/junior-xui';
+import { Button } from 'junior-xui';
 
 function App() {
   return (
