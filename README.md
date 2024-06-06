@@ -1,9 +1,10 @@
-# React + Vite
+# Junior-XUI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Junior-XUI es una colección de componentes React reutilizables y personalizables construidos con Tailwind CSS.
 
-Currently, two official plugins are available:
+## Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Junior-xui
+Puedes instalar Junior-XUI a través de npm. Asegúrate de tener instalado npm en tu proyecto antes de ejecutar este comando.
+
+```bash
+npm intall junior-xui
