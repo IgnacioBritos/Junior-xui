@@ -1,0 +1,188 @@
+:root {
+  /* --dark-- */
+  --bg-color-dark: rgba(251, 246, 246, 0.405);
+  --font-color-dark: rgb(205, 205, 205);
+  --border-color-dark: rgba(147, 147, 147, 0.476);
+  --hover-font-color-dark: rgb(255, 251, 251);
+  /* --light-- */
+  --bg-color-light: rgba(194, 194, 194, 0.993);
+  --font-color-light: rgb(65, 65, 65);
+  --border-color-light: rgba(147, 147, 147, 0.476);
+  --hover-font-color-light: rgb(0, 0, 0);
+  --hover-bg-color-light: rgb(146, 146, 146);
+  /* --Red-- */
+  --bg-color-red: #f77070c3;
+  --font-color-red: #520404;
+  --border-color-red: #de5c5c;
+  --hover-font-color-red: #fcfcfc;
+  --hover-bg-color-red: #ff7272;
+  /* --blue-- */
+  --bg-color-blue: rgba(83, 83, 191, 0.993);
+  --font-color-blue: rgba(255, 255, 255, 0.993);
+  --border-color-blue: rgba(45, 45, 124, 0.993);
+  --hover-font-color-blue: rgba(61, 61, 252, 0.481);
+  --hover-bg-color-blue: rgb(213, 231, 253);
+  /* --green-- */
+  --bg-color-green: #38c475;
+    --font-color-green: rgb(18, 48, 0);
+  --border-color-green: #00ea6557;
+  --hover-font-color-green: #223a2dd6;
+  --hover-bg-color-green: #b4fad3ac;
+}
+/* -------------- default--------------- */
+.button {
+  background-color: var(--bg-color-dark);
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 2px 10px;
+  color: var(--font-color-dark);
+  font-size: medium;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  transition: color 0.2s;
+}
+
+/* --------------Color----------------------- */
+/* -----DARK--------- */
+.secondary-dark {
+  background-color: transparent;
+  color: var(--font-color-dark);
+}
+
+.tertiary-dark {
+  background-color: var(--border-color-dark);
+  border: 1px solid lightgray;
+  color: var(--font-color-dark);
+}
+.tertiary-dark:hover,
+.secondary-dark:hover,
+.primary-dark:hover {
+  background-color: var(--bg-color-dark);
+  color: var(--hover-font-color-dark);
+}
+/* -----lIGHT----- */
+.primary-light {
+  background-color: var(--bg-color-light);
+  color: var(--font-color-light);
+}
+
+.secondary-light {
+  background-color: transparent;
+  color: var(--font-color-light);
+}
+
+.tertiary-light {
+  background-color: var(--bg-color-light);
+  border: 1px solid rgb(102, 103, 104);
+  color: var(--font-color-light);
+}
+
+.tertiary-light:hover,
+.secondary-light:hover,
+.primary-light:hover {
+  background-color: var(--hover-bg-color-light);
+  color: var(--hover-font-color-light);
+}
+
+/* ------RED----- */
+.primary-red {
+  background-color: var(--hover-bg-color-red);
+  color: var(--font-color-red);
+}
+
+.secondary-red {
+  background-color: transparent;
+  color: var(--font-color-red);
+}
+
+.tertiary-red {
+  background-color: var(--bg-color-red);
+  border: 1px solid rgb(145, 1, 1);
+  color: var(--font-color-red);
+}
+
+.tertiary-red:hover,
+.secondary-red:hover,
+.primary-red:hover {
+  background-color: var(--hover-bg-color-red);
+  color: var(--hover-font-color-red);
+}
+
+/* -----------BLUE------------- */
+.primary-blue {
+  background-color: var(--bg-color-blue);
+  color: var(--font-color-blue);
+}
+
+.secondary-blue {
+  background-color: transparent;
+  color: var(--bg-color-blue);
+}
+
+.tertiary-blue {
+  background-color: transparent;
+  border: 1px solid var(--bg-color-blue);
+  color: var(--bg-color-blue);
+}
+.primary-blue:hover {
+  color: rgb(1, 17, 195);
+  background-color: rgb(123, 123, 255);
+}
+.tertiary-blue:hover,
+.secondary-blue:hover {
+  background-color: var(--hover-bg-color-blue);
+}
+/* ---green--- */
+.primary-green {
+  background-color: var(--hover-bg-color-green);
+  color: var(--font-color-green);
+}
+
+.secondary-green {
+  background-color: transparent;
+  color: var(--bg-color-green);
+}
+
+.tertiary-green {
+  border: 1px solid rgb(13, 89, 0);
+  color: var(--font-color-green);
+}
+
+.tertiary-green:hover,
+.secondary-green:hover,
+.primary-green:hover {
+  background-color: var(--hover-bg-color-green);
+  color: var(--hover-font-color-green);
+}
+/* -------------------Radius-------------------------- */
+
+.rd-none {
+  border-radius: 0%;
+}
+.rd-small {
+  border-radius: 3px;
+}
+.rd-medium {
+  border-radius: 5px;
+}
+.rd-large {
+  border-radius: 10px;
+}
+.rd-full {
+  border-radius: 100%;
+}
+
+/* ---------------size--------------- */
+.s-small {
+  font-size: x-small;
+}
+.s-medium {
+  font-size: medium;
+}
+.s-large {
+  font-size: x-large;
+}

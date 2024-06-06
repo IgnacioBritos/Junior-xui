@@ -1,0 +1,96 @@
+.CardMarket {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+
+.CardMarket img {
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px;
+}
+.description h3, .description span {
+    margin: 0 10px; /* Añade espacio a los costados del texto */
+}
+
+h3 {
+    font-size: medium;
+    margin: 0;
+}
+/* --------------size------------------ */
+.small {
+    width: 100px;
+    height: auto;
+    font-size: 0.7rem;
+}
+
+.medium {
+    width: 180px;
+    height: auto;
+    font-size: 1rem;
+}
+
+.large {
+    width: 250px;
+    height: auto;
+    font-size: 1.3rem;
+}
+
+/* ------------type--------------- */
+.dark{
+    background-color: rgba(211, 211, 211, 0.457);
+    color: rgb(195, 195, 195);
+    transition: transform 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.dark:hover {
+    transform: scale(1.02); /* Aumenta el tamaño de la tarjeta al pasar el cursor */
+    box-shadow: 1px 1px 4px 1px #ffffff;
+    color: rgb(255, 255, 255);
+}
+.dark:active {
+    transform: scale(0.99); /* Reduce ligeramente el tamaño de la tarjeta al hacer clic */
+    transition: transform 0.1s ease-in-out; /* Animación rápida para el clic */
+    box-shadow: 1px 1px 4px 1px #adff7a;
+    color: #e3ffd2;
+}
+/* -------light----- */
+
+.light{
+    background-color: rgba(90, 90, 90, 0.911);
+    color: rgb(255, 255, 255);
+    transition: transform 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.light:hover {
+    transform: scale(1.02); /* Aumenta el tamaño de la tarjeta al pasar el cursor */
+    box-shadow: 2px 2px 4px 1px #6f6f6f;
+    color: rgb(255, 255, 255);
+}
+.light:active {
+    transform: scale(0.99); /* Reduce ligeramente el tamaño de la tarjeta al hacer clic */
+    transition: transform 0.1s ease-in-out; /* Animación rápida para el clic */
+    box-shadow: 1px 1px 4px 1px #5d943a;
+    color: #b4f88a;
+}
+
